@@ -4,7 +4,7 @@ import cartIcon from "../../images/cartIcon.png";
 import { BiCaretDown } from "react-icons/bi";
 import { HiOutlineSearch } from "react-icons/hi";
 import { SlLocationPin } from "react-icons/sl";
-import { RiShoppingCartLine } from "react-icons/Ri";
+import { RiShoppingCartLine } from "react-icons/ri";
 import BottomHeader from "../BottomHeader/BottomHeader";
 import Link from "../../../node_modules/next/link";
 import { useSelector, useDispatch } from "react-redux";
@@ -196,35 +196,18 @@ export const Header = () => {
 };
 
 
-// {userInfo ?
-//   (
-//     <Link href={"/favPage"}>
-//     <p>Marked</p>
-//     <p className="text-white font-bold">& Favorite</p>
-//     {userInfo?.favoriteData && userInfo?.favoriteData?.length > 0 && (
-//       <span
-//         className="absolute right-2 top-2 w-4 h-4 border-[1px] border-gray-400 flex items-center
-//   justify-center text-ms text-amazon_yellow"
-//       >
-//         {userInfo?.favoriteData?.length}
-//       </span>
-//     )}
-//   </Link>
-//   )
-//   :
-//   (
-//     <Link href={"/favPage"}>
-//     <p>Marked</p>
-//     <p className="text-white font-bold">& Favorite</p>
-//     {favoriteData && favoriteData.length > 0 && (
-//       <span
-//         className="absolute right-2 top-2 w-4 h-4 border-[1px] border-gray-400 flex items-center
-//   justify-center text-ms text-amazon_yellow"
-//       >
-//         {favoriteData.length}
-//       </span>
-//     )}
-//   </Link>
-//   )
-//     }
-
+// import Image from "next/image";
+// import logo from "../../images/logo.png";
+// import cartIcon from "../../images/cartIcon.png";
+// import { BiCaretDown } from "react-icons/bi";
+// import { HiOutlineSearch } from "react-icons/hi";
+// import { SlLocationPin } from "react-icons/sl";
+// import { RiShoppingCartLine } from "react-icons/Ri";
+// import BottomHeader from "../BottomHeader/BottomHeader";
+// import Link from "../../../node_modules/next/link";
+// import { useSelector, useDispatch } from "react-redux";
+// import { StateProps } from "../../../type";
+// import { useSession, signIn, signOut } from "next-auth/react";
+// import { useEffect } from "react";
+// import { addUser } from "@/store/nextSlice";
+// import { useRouter } from "next/router";

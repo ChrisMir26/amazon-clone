@@ -8,7 +8,6 @@ export default async function handler(
   res: NextApiResponse
 ) {
   const { items, email } = req.body;
-console.log(`ITEMSSSSSSSSSSSSSSS`, items)
   if (!items || items.length === 0) {
     // Manejar el caso en el que no haya elementos en el carrito
     return res.status(400).json({ error: "No items in the cart." });
